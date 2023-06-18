@@ -1,3 +1,4 @@
+import { ClerkProvider } from "@clerk/nextjs";
 import { Footer, Header } from "./components";
 import "./globals.css";
 import { Open_Sans } from "next/font/google";
@@ -16,11 +17,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`bg-[#181F2A] ${openSans.className} text-[14px]`}>
-        <Header />
-        {children}
-        <Footer />
-      </body>
+      <ClerkProvider appearance={
+        {variables:{
+          colorPrimary: "#0B1523"
+        }}
+      }>
+        <body className={`bg-[#181F2A] ${openSans.className} text-[14px]`}>
+          <Header />
+          {children}
+          <Footer />
+        </body>
+      </ClerkProvider>
     </html>
   );
 }

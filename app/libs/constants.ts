@@ -1,4 +1,4 @@
-export const navItems = ["Features", "Team", "Sign In"];
+export const navItems: any = ["Features", "Team"];
 
 export const featureItems = [
   {
