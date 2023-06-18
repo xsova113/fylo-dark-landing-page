@@ -12,7 +12,7 @@ const SignInBox = ({ signIn }: { signIn: boolean }) => {
       leave="ease-in duration-300"
       leaveFrom="translate-y-0 opacity-100"
       leaveTo="-translate-y-full opacity-0"
-      className="absolute right-20 mt-12"
+      className="absolute right-[6px] md:right-20 mt-8"
     >
       <SignIn />
     </Transition>

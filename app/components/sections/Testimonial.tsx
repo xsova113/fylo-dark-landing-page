@@ -5,7 +5,7 @@ import Image from "next/image";
 const Testimonial = () => {
   return (
     <section className="text-white relative container-paddingx mx-4 max-md:mx-4 mt-20 md:mt-16">
-      <div className="absolute w-[45px] h-[45px] md:w-[60px] md:h-[60px] -top-3 left-7 md:top-2 md:left-[86px] -z-10">
+      <div className="absolute w-[45px] h-[45px] md:w-[60px] md:h-[60px] -top-3 left-7 md:top-0 md:left-[86px] -z-10">
         <Image
           src={"/images/bg-quotes.png"}
           alt="background-quotes"
