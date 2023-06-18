@@ -5,7 +5,7 @@ const raleway = Raleway({ subsets: ["latin"] });
 
 const HeroSections = () => {
   return (
-    <section className="bg-[#1C2431] md:pb-40 pb-28 flex relative flex-col px-2 mx-auto text-center max-md:overflow-x-clip  gap-12 text-white">
+    <section className="bg-[#1C2431] md:pb-40 pt-16 pb-28 flex relative flex-col px-2 mx-auto text-center max-md:overflow-x-clip gap-12 text-white">
       <div className="relative w-full h-[280px] md:h-[450px] lg:h-[530px]">
         <Image
           src={"/images/illustration-intro.png"}
