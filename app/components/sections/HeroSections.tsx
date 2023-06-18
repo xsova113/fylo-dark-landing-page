@@ -11,6 +11,7 @@ const HeroSections = () => {
           src={"/images/illustration-intro.png"}
           alt="intro-image"
           fill
+          priority
           className="object-contain z-10"
         />
       </div>
